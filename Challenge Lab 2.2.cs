@@ -36,3 +36,4 @@ class Program
 
 // This particular exercise is terrible for user validation. UserId and Password should never be hardcoded in a real application. Let another identity provider handle that.
 // In our case Microsoft Intranet or Google OAuth or something similar.
+// 3 attempts is also too low for a real application. 10 or more is more reasonable.
